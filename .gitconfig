@@ -1,0 +1,18 @@
+[user]
+  name = ymzkmct
+  email = macoto.yamazaki@gmail.com
+[color]
+  ui = auto
+[core]
+  pager = lv -c
+  editor = vim
+  excludesfile = ~/.gitignore
+[alias]
+  cloner = clone --recursive
+  sur    = submodule update --init --recursive
+  adda   = add -A
+  st     = status
+  br     = branch
+[rebase]
+  autosquash = true
+
